@@ -1,0 +1,31 @@
+background no
+double_buffer yes
+update_interval 1.0
+
+minimum_size 250 5
+
+own_window yes
+own_window_type panel
+own_window_alignment bottom_right    # add this line
+own_window_title_align off
+own_window_argb_visual yes
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager,maximized
+xftfont Sans:size=10
+own_window_argb_value 0x55555555
+minimum_size 0 0
+gap_y 0
+
+background yes
+background_color white yellow
+
+font sans:size=10
+
+use_xft yes
+xftalpha 0.8
+
+draw_shades no
+
+color1 white
+
+TEXT
+${color1}${execi 60 python3 /home/richard/Documents/PROGRAMS/NEWS/newsConky.py}
