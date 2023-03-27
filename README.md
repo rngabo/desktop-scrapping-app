@@ -1,4 +1,4 @@
-# Desktop-scrapping-app
+# Desktop-scrapping-app (Automation)
 
 Desktop News Scrapping App
 This is a desktop-based app that uses web scraping to fetch politics and tech news from the BBC and TechCrunch websites respectively. The app is written in Python and uses the BeautifulSoup library for web scraping.
